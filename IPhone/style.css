@@ -65,3 +65,47 @@
 .right img {
     height: 360px;
 }
+.apple {
+    text-align: center;
+}
+.apple .row {
+    justify-content: center;
+    display: flex;     
+    flex-wrap: wrap;  
+}
+.apple .card img {
+    display: block;
+    margin: 0 auto;
+}
+.iphone {
+    text-align: center;
+}
+.iphone .row {
+    display: flex;
+    justify-content: center;
+}
+.incontournable .tete {
+    display: flex;
+    justify-content: space-evenly;
+}
+.incontournable .tete a {
+    margin-top: 50px;
+}
+.accessoires .row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.iphone-mac .row p {
+    width: 50%;
+}
+.iphone-mac .card-content .row .l6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iphone-mac .card-content h4 {
+    margin-left: 150px;
+    position: relative;
+    top: 80px;
+}

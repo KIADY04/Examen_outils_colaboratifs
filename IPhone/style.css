@@ -315,4 +315,169 @@ h1, h4, h3 {
     .credit-item {
         margin-bottom: 20px;
     }
+}/* ======================
+   MEDIA QUERIES TABLETTES
+   ====================== */
+@media screen and (max-width: 992px) {
+    nav img {
+        width: 25px;
+        margin-top: 5px;
+    }
+    nav a {
+        font-size: 12px;
+    }
+    nav i {
+        font-size: 14px;
+    }
+
+    .container h1 {
+        font-size: 36px;
+        margin: 30px 0;
+    }
+
+    .card-content .row,
+    .card .row {
+        margin-left: 5%;
+    }
+
+    .banner {
+        margin: 20px;
+        height: 350px;
+    }
+
+    .banner .left {
+        margin-left: 20px;
+    }
+
+    .banner p {
+        font-size: 24px;
+    }
+
+    .explore h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .apple h4 {
+        font-size: 32px;
+    }
+
+    .iphone h1 {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 600px) {
+    nav img {
+        width: 20px;
+        margin-top: 3px;
+    }
+    nav a {
+        font-size: 10px;
+        display: block;
+        margin-top: 5px;
+        text-align: center;
+    }
+    nav i {
+        font-size: 14px;
+    }
+    .container h1 {
+        font-size: 28px;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .card-content .row,
+    .card .row {
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .card .col {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    .explore {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 10px 20px;
+    }
+    .explore h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .explore a {
+        font-size: 14px;
+    }
+    .banner {
+        margin: 10px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    .banner .left {
+        margin-left: 0;
+        padding: 10px;
+        text-align: center;
+        color: black;
+    }
+    .banner p {
+        font-size: 18px;
+    }
+    .banner button {
+        width: 100%;
+        font-size: 12px;
+    }
+    .apple {
+        padding: 40px 10px;
+    }
+    .apple .row {
+        gap: 10px;
+    }
+    .apple .card {
+        width: 180px;
+        height: 220px;
+    }
+    .iphone h1 {
+        font-size: 28px;
+    }
+    .iphone img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .incontournable {
+        padding: 30px 10px;
+    }
+    .tete {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .iphone-mac h4 {
+        font-size: 20px;
+    }
+    .iphone-mac p {
+        font-size: 14px;
+    }
+    .credit-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .credit-item {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+    .footer-nav .row {
+        flex-direction: column;
+    }
+    .footer-nav .col {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .footer-bottom {
+        text-align: center;
+    }
+    .footer-bottom .right {
+        display: block;
+        margin-top: 10px;
+    }
 }

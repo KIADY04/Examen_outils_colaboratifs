@@ -17,10 +17,16 @@ nav i {
 h1, h4, h3 {
     color: #1d1d1f;
 }
+.card-content .row {
+    margin-left: 10%;
+}
 .container h1 {
     font-size: 48px;
     font-weight: 600;
     margin: 40px 0;
+}
+.card .row {
+    margin-left: 10%;
 }
 .container .row img {
     transition: transform 0.3s;
